@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int i=5;
+   int *prt=&i;
+
+   int **p2=&prt;
+
+   cout<<**p2<<endl;
+
+   return 0;
+}
